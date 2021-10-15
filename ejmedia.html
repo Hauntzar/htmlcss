@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="description" content="My first html website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div id="start">
+<h1> Hello World this is my site </h1>
+
+<p class="blue"> Welcome to my site. This is
+    Kinda cool to make this. </p>
+</div>
+<div id="main">
+<h2> This is the section on how cool I am </h2>
+<p class="purple"> I live in Boise. Super cool </p>
+<blockquote>
+    This is an indent. I am a <i>Pisces</i>
+</blockquote>
+<blockquote>
+    It goes content, padding, border, margin
+</blockquote>
+<p style="color:black;background-color:gold;">Test this inline style</p>
+
+<p class="para3">A fish is any member of a paraphyletic group of organisms that consist of all gill-bearing aquatic craniate animals that lack limbs with digits. Included in this definition are the living hagfish, lampreys, and cartilaginous and bony fish, as well as various extinct related groups. Most fish are ectothermic <span class="highlight">("cold-blooded")</span>, allowing their body temperatures to vary as ambient temperatures change, though some of the large active swimmers like white shark and tuna can hold a higher core temperature.[1][2] Fish are abundant in most bodies of water. They can be found in nearly all aquatic environments, from high mountain streams (e.g., char and gudgeon) to the abyssal and even hadal depths of the deepest oceans (e.g., gulpers and anglerfish). With 33,100 described species, fish exhibit greater species diversity than any other group of vertebrates</p>
+
+<p class="paragraph4homepage">A fish is any member of a paraphyletic group of organisms that consist of all gill-bearing aquatic craniate animals that lack limbs with digits. Included in this definition are the living hagfish, lampreys, and cartilaginous and bony fish, as well as various extinct related groups. Most fish are ectothermic ("cold-blooded"), allowing their body temperatures to vary as ambient temperatures change, though some of the large active swimmers like white shark and tuna can hold a higher core temperature.[1][2] Fish are abundant in most bodies of water. They can be found in nearly all aquatic environments, from high mountain streams (e.g., char and gudgeon) to the abyssal and even hadal depths of the deepest oceans (e.g., gulpers and anglerfish). With 33,100 described species, fish exhibit greater species diversity than any other group of vertebrates
+
+^ is begins with $ is ends with * is anywhere
+p[lang*=us]{
+    background-color=blue
+}
+#right p:nth-child(3n+2){
+
+}
+#right p:nth-child(even){
+
+}
+p{
+
+}
+:not(p){
+    color=darkgreen;
+}
+p::first-letter{
+    font-weight: bold;
+    font-size: 24px;
+}
+p:first-line{
+    font-weight: bold;
+    color: red;
+    font-size: 24px;
+}
+</p>
+
+<a href="google.com"><img class="imagec" src="blastoise.png"></a>
+</div>
+
+<div>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Links</a></li>
+        <li><a href="">Forum</a></li>
+        <li><a href="">About</a></li>
+    </ul>
+</div>
+
+<div id="nav">
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Links</a></li>
+        <li><a href="">Forum</a></li>
+        <li><a href="">About</a></li>
+    </ul>
+
+</div>
+<div class="buttonnice">
+    <ul>
+     <li><a class="button" href="">Home</a></li>
+     <li><a class="button" href="">Links</a></li>
+     <li><a class="button" href="">Forum</a></li>
+     <li><a class="button" href="">Contact</a></li>
+    </ul> 
+</div>
+
+</body>
+</html>

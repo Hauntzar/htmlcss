@@ -1,0 +1,16 @@
+div {
+
+margin: 25px;
+border: black 2px solid;
+padding: 10px;
+
+background-color: yellow;
+}
+
+img.special {
+display: block;
+margin-left:  auto;
+margin-right:  auto;
+margin: 25px;
+border: black 2px solid;
+padding: 10px;
